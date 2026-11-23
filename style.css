@@ -1,0 +1,36 @@
+.activo{
+    color: red;
+    font-size: 50rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 2rem;
+}
+
+article.contenedora_cuadrito{
+    background-color: rgb(177, 218, 253);
+    /* padding: 3rem; */
+    width: 80dvw;
+    height: 80dvh;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .cuadrito{
+        width: 10%;
+        aspect-ratio: 1/1;
+        background-color: brown;
+        position: absolute;
+        bottom: 0;
+        /* left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+}
