@@ -1,14 +1,17 @@
 import  { sumar } from "./funciones.js"
 
 // Referencias del DOM
-const $h1 = document.querySelector("h1")
+const h1 = document.querySelector("#miH1")
 
-$h1.style.color ="green"
-$h1.style.fontSize ="50px"
+h1.style.color ="green"
+h1.style.fontSize ="50px"
 
-console.log($h1)
+// h1.style.display="none";
+h1.classList.add("activo")
 
-//const $h2 = document.querySelector("h2")
+console.log(h1)
+
+//const $h2 = document.querySelector("h2")  
 const $h2 = document.querySelector("#titulo2")
 $h2.style.color ="red"
 $h2.style.fontSize ="25px"
