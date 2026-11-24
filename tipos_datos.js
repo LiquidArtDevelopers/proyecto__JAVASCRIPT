@@ -58,5 +58,6 @@ const noDefinido = undefined
 
 /**
  * Datos compuestos
+ 
  */
 
