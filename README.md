@@ -35,3 +35,12 @@ En este curso aprenderemos los fundamentos del desarrollo web con JavaScript. En
 - Gestión de eventos con `addEventListener`.
 - Uso del objeto `event`.
 - Aplicación práctica: desarrollo de una calculadora interactiva.
+
+
+### 5. Funciones.
+
+- Módulos (export functions).
+- Funciones declarativas.
+- Funciones flechas.
+- Callbaks.
+- Promesas y funciones flechas.
