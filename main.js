@@ -1,15 +1,15 @@
 import  { sumar } from "./funciones.js"
 
 // Referencias del DOM
-const h1 = document.querySelector("#miH1")
+const $h1 = document.querySelector("#mi$H1")
 
-h1.style.color ="green"
-h1.style.fontSize ="50px"
+$h1.style.color ="green"
+$h1.style.fontSize ="50px"
 
-// h1.style.display="none";
-h1.classList.add("activo")
+// $h1.style.display="none";
+$h1.classList.add("activo")
 
-console.log(h1)
+console.log($h1)
 
 //const $h2 = document.querySelector("h2")  
 const $h2 = document.querySelector("#titulo2")
