@@ -20,17 +20,14 @@ console.log($h2)
 
 // recojo en constantes los elementos html de los input donde se escribe y del boton sumar
 const $btnSumar = document.querySelector("#btnSumar")
-const $num1 = document.querySelector("#num1")  // manera de recoger una variable cmo haciamos con jquery. mera costumbre cuando se trata de un objeto
+const $num1 = document.querySelector("#num1")  // manera de recoger una variable como haciamos con jquery. mera costumbre cuando se trata de un objeto
 const $num2 = document.querySelector("#num2")  // actual que vale para todo
 
 // cogemos el input donde debe ir el resultado ****
 const inputResultado = document.querySelector("#inputResultado")
 
-
 // Eventos
-
 $btnSumar.addEventListener("click",()=>{
    const resultado = sumar($num1.value,$num2.value)
     inputResultado.value = resultado
 })
-
