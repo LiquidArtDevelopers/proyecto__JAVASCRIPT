@@ -58,6 +58,36 @@ const noDefinido = undefined
 
 /**
  * Datos compuestos
- 
  */
+
+// Arrays
+
+const fruits = ["banana"]
+
+fruits.push("orange")
+fruits.push(5)
+fruits.push(true)
+fruits.push(["Darren","Gilbert","Johan","Ainoha"])
+
+
+console.log(fruits[0])
+console.log(fruits[1])
+console.log(fruits[2])
+console.log(fruits[4])
+console.log(fruits)
+
+
+// Object
+
+const person = {
+    name : "Darren",
+    age: 27,
+    favorite_foods:[
+        "Ceviche"
+    ]
+}
+
+console.log(person.name)
+console.log(person.age)
+console.log(person.favorite_foods)
 
