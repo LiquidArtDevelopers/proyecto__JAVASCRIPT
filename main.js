@@ -1,3 +1,4 @@
+import { getHero, searchHeroe } from "./api.js"
 import  { multiplicar, restar, sumar } from "./funciones.js"
 
 // Referencias del DOM
@@ -16,6 +17,28 @@ const $h2 = document.querySelector("#titulo2")
 $h2.style.color ="red"
 $h2.style.fontSize ="25px"
 console.log($h2)
+
+
+
+
+
+
+
+// Super Hero API
+
+const $btnSearchHero = document.querySelector("#btnSearchHero")
+const $txtSearchHero = document.querySelector("#txtSearchHero")
+
+
+
+$btnSearchHero.addEventListener("click",async()=>{
+
+const result = await getHero("1")
+console.log({result})
+    
+})
+
+
 
 
 // recojo en constantes los elementos html de los input donde se escribe y del boton sumar
